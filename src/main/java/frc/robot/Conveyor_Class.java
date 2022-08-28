@@ -33,7 +33,7 @@ public class Conveyor_Class {
     /**
    * This method commands a conveyor to move with a constant input voltage.
    *
-   * @param a2 The input voltage normalized to between -1 and 1.
+   * @param voltage The input voltage normalized to between -1 and 1.
    */
   public void move_conveyor(double voltage) {
     volt_command = voltage;  // sets the command variable

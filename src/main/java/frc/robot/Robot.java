@@ -22,7 +22,7 @@ public class Robot extends TimedRobot {
   private final Joystick driver_joystick = new Joystick(0);
 
   @Override
-  public void robotInit() {
+  public void robotInit() { 
     System.out.println("==========================");
     System.out.println("SW Training Program");
     System.out.println("Project: Test1");
